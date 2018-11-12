@@ -1,0 +1,12 @@
+:root {
+  --fontMain: 'Source Sans Pro', sans-serif;
+  --fontBrand1: 'Raleway', sans-serif;
+  --fontBrand2: 'Play', sans-serif;
+
+  --black: #090614;
+  --purple: #5B3CC8;
+  --green: #8fe612;
+  --blue: #2979ff;
+  --darkgray: #c3c1c7;
+  --lightgray: #dbdadf;
+}

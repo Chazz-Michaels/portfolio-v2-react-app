@@ -1,0 +1,11 @@
+.main-content-wrapper {
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+.center-me {
+  text-align: center;
+}
+body {
+  font-family: var(--fontMain);
+  background-color: var(--darkgray);
+}
