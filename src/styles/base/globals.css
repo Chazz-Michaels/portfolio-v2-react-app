@@ -6,6 +6,7 @@
   text-align: center;
 }
 body {
+  margin-left: 120px;
   font-family: var(--fontMain);
   background-color: var(--darkgray);
 }
