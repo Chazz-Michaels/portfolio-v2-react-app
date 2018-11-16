@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+import MCDevLogo from '../images/mcdev-logo.png';
+import EnterButtonImg from '../images/enter-button-img.png'
 import Particles from 'react-particles-js';
 
-class Welcome extends React.Component {
+class Welcome extends Component {
+
+  handleMouseOverEnterButton = () => {
+    const enterBtnImg = document.getElementById('enter-button-img');
+    enterBtnImg.style.transform = "rotate(85deg)";
+  }
+  handleMouseLeaveEnterButton = () => {
+    const enterBtnImg = document.getElementById('enter-button-img');
+    enterBtnImg.style.transform = "rotate(-10deg)";
+  }
+
   render () {
     return (
       <div id="welcome-wrapper">
@@ -125,6 +136,13 @@ class Welcome extends React.Component {
               'padding': '0 0 0 0'
             }}
            />
+
+         <img src={MCDevLogo} id="mcdev-logo" alt="Michael Chase Development" />
+
+         <div id="enter-button" onMouseOver={this.handleMouseOverEnterButton} onMouseLeave={this.handleMouseLeaveEnterButton}>
+           Enter
+           <img src={EnterButtonImg} id="enter-button-img" alt="-->" />
+         </div>
 
       </div>
 

@@ -1,6 +1,8 @@
 .main-content-wrapper {
-  min-height: 100vh;
-  padding: 0 2rem;
+  min-height: (100vh);
+  min-width: (100vw - 120px);
+  padding: 0;
+  margin: 0;
 }
 .center-me {
   text-align: center;
