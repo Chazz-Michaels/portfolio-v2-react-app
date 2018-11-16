@@ -1,0 +1,9 @@
+#welcome-wrapper {
+  max-width: 100vw;
+  max-height: 50vh;
+  padding: 0;
+  overflow: hidden;
+  background: #090614;
+  border: 10px solid var(--blue);
+  border-radius: 0.4rem;
+}
